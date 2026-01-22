@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil | Asset Editing</title>
+
+  <!-- LINK KE CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="data:image/png;base64,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">
+</head>
+
+<body>
+  <div class="body">
+
+    <!-- PROFILE -->
+    <div class="profile fade-up">
+      <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7dc188a1763a3c752424315f131a4ea3~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=287a11a4&x-expires=1767808800&x-signature=u5BZcC7obTClBdiQ93sP3%2Bpvor0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my" alt="Profile">
+      <h1>Yanzz.vfx</h1>
+      <p>Editor pemula, tapi ingin berkembang lagi</p>
+
+      <div class="links">
+       <a class="btn-tiktok" href="https://www.youtube.com/" target="_blank">
+  <img src="icon/ahvchd.png" alt="Logo" class="btn-icontiktok">
+  Youtube
+</a>
+        <a class="btn-tiktok" href="https://www.instagram.com/" target="_blank">
+  <img src="icon/bviwiweig.png" alt="Logo" class="btn-icontiktok">
+  Instagram
+</a>
+        <a class="btn-tiktok" href="https://www.tiktok.com/@yanszz280" target="_blank">
+  <img src="icon/miawww.png" alt="Logo" class="btn-icontiktok">
+  TikTok
+</a>
+        <a class="btn-tiktok" href="https://wa.me/089694830011" target="_blank">
+  <img src="icon/malasssssssssssss (1).png" alt="Logo" class="btn-icontiktok">
+  Contact
+</a>
+      </div>
+    </div>
+
+    <!-- ASSET SECTION -->
+    <div class="section fade-up delay-1">
+      <h2>🎬 Asset Editing</h2>
+
+      <div class="assets">
+        <div class="asset-card">
+          <h3>S_Shake Preset</h3>
+          <p>Preset shake smooth untuk After Effects (2017+)</p>
+          <a href="cihuyy1/asset.html">Download</a>
+        </div>
+
+        <div class="asset-card">
+          <h3>Text Animation Pack</h3>
+          <p>Animasi teks simple & ringan</p>
+          <a href="#">Download</a>
+        </div>
+
+        <div class="asset-card">
+          <h3>Overlay Pack</h3>
+          <p>Overlay glitch, flash, film burn</p>
+          <a href="#">Download</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © wawannnnnnnnnnnnnnnnnnnnnn
+    </footer>
+
+  </div>
+</body>
+</html>
